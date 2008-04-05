@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Jordan McKible</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" />
+<link rel="openid.server" href="http://www.myopenid.com/server"/>
+<link rel="openid.delegate" href="http://jmckible.myopenid.com"/>
+<meta name="microid" content="726a19c93ca69baf85a03aed1dfc2aeb42d6cd11" />
+</head>
+
+<body>
+<div id="Content">
+  
+  <h1>Jordan McKible</h1>
+
+  <div id="Picture">
+    <img src="images/jordan_mckible_2007-11-01.jpg" alt="My Face"/>
+    <p id="Twitter">Last Twitter: <a href="http://twitter.com/jmckible"><span id="my_twitter_status"></span></a></p>
+  </div>
+
+  <p>Hello.  I live in <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=110+College+Ave,+Mountain+View,+CA+94040&sll=37.0625,-95.677068&sspn=42.224734,63.984375&ie=UTF8&z=16&iwloc=addr&om=1">Mountain View, CA</a>. I am a Ruby on Rails developer at a startup.  My interests are media, minimalism, indie rock, and the Boston Red Sox.</p>
+
+  <p>You can call me at (603) 219-8123 or email me at jordan AT mckible DOT com.</p>  
+  
+  <p>On most sites, my username is jmckible.</p>
+  
+  <p><s>My resume</s>.  I am not looking for a job.  Please do not contact me for this reason. I also don't know any other Rails developers looking for jobs, thanks.</p>
+
+  <h2 style="clear:both; margin-top: 3em">In Production</h2>
+  <ul>
+    <li><a href="http://tuples.us">Grinding Rails</a>: Technical musings</li>
+    <li><a href="http://corkboardinc.com/blog">Corkboard blog</a>: My old company blog</li>
+    <li><a href="http://warehouse.corkboardinc.com">Corkboard Warehouse</a>: Lots of free code
+    <li><a href="http://wiffled.com">Wiffled</a>: I like Wiffle Ball</li>
+    <li><a href="http://yourdailysales.com">Daily Sales</a>: A web application for car dealerships</li>
+    <li><a href="http://twitter.com/redsoxcast">Red Sox Twittercast</a>: Live baseball + Twitter ftw</li>
+  </ul>
+  
+	<h2 style="clear:both; margin-top: 3em">In Development</h2>
+  <ul>
+    <li><a href="http://activebudget.org">ActiveBudget</a>: Track your budget and hours worked</li>
+    <li><a href="http://foodlab.tv">Food Lab</a>: A community cookbook</li>
+  </ul>
+
+  <div id="Footer">
+    <p>Design and images are copyright © 2007.</p>
+  </div>
+
+</div> <!-- end #Content -->
+
+
+<script type="text/javascript">
+  function relative_time(time_value) {
+    var values = time_value.split(" ");
+    time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+    var parsed_date = Date.parse(time_value);
+    var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+    var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
+    delta = delta + (relative_to.getTimezoneOffset() * 60);
+
+    if (delta < 60) {
+      return 'less than a minute ago';
+    } else if(delta < 120) {
+      return 'about a minute ago';
+    } else if(delta < (45*60)) {
+      return (parseInt(delta / 60)).toString() + ' minutes ago';
+    } else if(delta < (90*60)) {
+      return 'about an hour ago';
+    } else if(delta < (24*60*60)) {
+      return 'about ' + (parseInt(delta / 3600)).toString() + ' hours ago';
+    } else if(delta < (48*60*60)) {
+      return '1 day ago';
+    } else {
+      return (parseInt(delta / 86400)).toString() + ' days ago';
+    }
+  }
+  
+	function twitterCallback(obj) {
+		var id = obj[0].user.id;
+		document.getElementById('my_twitter_status').innerHTML = obj[0].text;
+	}
+</script>
+<span id="my_twitter_status"></span> <span id="my_twitter_status_time"></span>
+
+<script type="text/javascript" src="http://www.twitter.com/statuses/user_timeline/95653.json?callback=twitterCallback&count=1"></script>
+
+
+
+</body>
+</html>

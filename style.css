@@ -1,0 +1,92 @@
+body{
+  margin:  1em 1em 3em 1em;
+  background:  #fff url(/images/bg-fade.png) repeat-x;
+  font-family: "Lucida Grande", verdana, sans-serif;
+  color: #333;
+  width: 880px;
+}
+
+a{color: #333;text-decoration: none;}
+a:visited{color: #333;}
+
+img{margin-left: 2em;}
+
+.title{
+  text-align: center;
+  font-family:  georgia;
+  letter-spacing:  0.2em;
+  font-size:  2.7em;
+  font-weight:  bold;
+  color: #561420;
+  margin: 0;
+}
+
+
+.subtitle{
+  text-align:  center;
+  color:  #2a3b63;
+  font-size:  1.5em;
+}
+.subtitle p{margin: 0;}
+.border{
+  border-top: 1px solid  #ccc;
+  border-bottom: 1px solid  #ccc;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.navigation{margin: 0;  background: #561420;}
+.navigation a{color:#fff;text-decoration: none;}
+.navigation a:visited{color:#fff;}
+.navigation span{padding: 0 1em 0 6em;}
+
+
+h3{
+  color: #561420;
+  text-align:  center;
+  font-size: 2em;
+  letter-spacing:  0.2em;
+  font-family:  georgia;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.right{float: right}
+.left{float: left;}
+.clear{clear: both;}
+.top-margin{margin-top: 1em;}
+.right-margin{margin-right:  2em;}
+.left-margin{margin-left: 2em;}
+.letter-spacing{letter-spacing: 0.1em;}
+.font-size-3{font-size: 3em;}
+
+.times{font-family: times;}
+
+.content{
+  margin: 3em 0 0 0;
+}
+
+ol li{padding:  0;}
+
+ul{
+  margin: 0;
+  font-weight: bold;
+}
+
+li{
+  margin: 0;
+  padding-bottom:  1em;
+}
+
+.footer{
+  font-size: 0.8em;
+  color: #999;
+  margin: 5em 4em 1em 4em;
+  border-top: 1px solid #ccc;
+  text-align:  center;
+  letter-spacing: 0.1em;
+  padding-top: 0.5em;
+}
+
+.footer a{color: #999;}
+.footer a:visited{color: #999;}
