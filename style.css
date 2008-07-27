@@ -1,15 +1,15 @@
-body{
-  margin:  1em 1em 3em 1em;
+.body{
+  margin: 1em 1em 3em 1em;
   background:  #fff url(/images/bg-fade.png) repeat-x;
   font-family: "Lucida Grande", verdana, sans-serif;
   color: #333;
-  width: 880px;
+  width: 770px;
 }
 
 a{color: #333;text-decoration: none;}
 a:visited{color: #333;}
 
-img{margin-left: 2em;}
+img{margin-left: 0em;}
 
 .title{
   text-align: center;
@@ -34,7 +34,7 @@ img{margin-left: 2em;}
   margin: 0.5em 0 0.5em 0;
 }
 
-.navigation{margin: 0;  background: #561420;}
+.navigation{margin: 0;  background: #561420; font-family:Arial, Helvetica, sans-serif;}
 .navigation a{color:#fff;text-decoration: none;}
 .navigation a:visited{color:#fff;}
 .navigation span{padding: 0 1em 0 6em;}
