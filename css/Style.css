@@ -720,7 +720,10 @@ font-size:15px; padding:0 0 10px 0;list-style:none outside none;}
 
 .text_04{font:18px Arial, Helvetica, sans-serif; color:#333;}
 
-
+.text_02 ul,li{margin:0px; padding:0px;}
+.text_02 li{list-style:none; background:url(../images/bulit_black.png) 0 11px no-repeat; padding:8px 0 0 20px;}
+.text_02 li a{color:#000; text-decoration:none;}
+.text_02 li a:hover{color:#000; text-decoration:underline;}
 
 
 
@@ -736,7 +739,10 @@ font-size:15px; padding:0 0 10px 0;list-style:none outside none;}
 
 
 
-.left-td { background:url(../images/GA_Personal_Injury_17.jpg) left top no-repeat; width:208px; height:35px; color:#FFFFFF; padding:7px 0 0 40px;text-transform:uppercase; }
+.left-td { background:url(../images/GA_Personal_Injury_17.jpg) left top no-repeat; width:208px; height:35px; color:#FFFFFF; padding:0px 0 0 40px;text-transform:uppercase; }
+.left-td a{color:#ffffff; text-decoration:none;}
+.left-td a:hover{color:#ffffff; text-decoration:underline;}
+.left-td.sel a{color:#ff9900; text-decoration:none;}
 
 
 
