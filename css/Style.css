@@ -4,9 +4,7 @@
 
 body {
 
-   background-image: url(../images/GA_Personal_Injury_01.jpg);
-
-   background-position: top;
+   background-image: url('../images/NH_Personal_Injury_01.jpg');
 
    background-repeat: repeat-x;
 
@@ -14,7 +12,7 @@ body {
 
    color: #000000;
 
-   font-size: 11px;
+   font-size: 11px; background-position-y:50%
 
  }
 
@@ -481,7 +479,7 @@ td.c_mi3s a {
 
    font-family: ;
 
-   color: #;
+   color: #
 
 }
 
@@ -720,8 +718,8 @@ font-size:15px; padding:0 0 10px 0;list-style:none outside none;}
 
 .text_04{font:18px Arial, Helvetica, sans-serif; color:#333;}
 
-.text_02 ul,li{margin:0px; padding:0px;}
-.text_02 li{list-style:none; background:url(../images/bulit_black.png) 0 11px no-repeat; padding:8px 0 0 20px;}
+.text_02 ul, li{margin:0px; padding:0px;}
+.text_02 li{background:url('../images/bulit_black.png') no-repeat 0 11px; list-style-type:none; padding-left:20px; padding-right:0; padding-top:8px; padding-bottom:0}
 .text_02 li a{color:#000; text-decoration:none;}
 .text_02 li a:hover{color:#000; text-decoration:underline;}
 
@@ -739,7 +737,7 @@ font-size:15px; padding:0 0 10px 0;list-style:none outside none;}
 
 
 
-.left-td { background:url(../images/GA_Personal_Injury_17.jpg) left top no-repeat; width:208px; height:35px; color:#FFFFFF; padding:0px 0 0 40px;text-transform:uppercase; }
+.left-td { background:url('../images/NH_Personal_Injury_17.jpg') no-repeat left top; width:208px; height:35px; color:#FFFFFF; text-transform:uppercase; padding-left:40px; padding-right:0; padding-top:0px; padding-bottom:0 }
 .left-td a{color:#ffffff; text-decoration:none;}
 .left-td a:hover{color:#ffffff; text-decoration:underline;}
 .left-td.sel a{color:#ff9900; text-decoration:none;}
@@ -922,14 +920,14 @@ font-size:15px; padding:0 0 10px 0;list-style:none outside none;}
 
 
 
-.submit_bt_bg{background:url(../images/bt-bg.jpg) bottom right no-repeat;}
+.submit_bt_bg{background:url('../images/bt-bg.jpg') no-repeat bottom right;}
 
 
 
-.left_form input,select,textarea{font:11px tahoma; color:#333; border:1px solid #000000; padding:1px;}
+.left_form input, select, textarea{font:11px tahoma; color:#333; border:1px solid #000000; padding:1px;}
 
 .submit_button_bg{
-background: url(../images/submit_bt.jpg) no-repeat scroll right bottom transparent;}
+background: url('../images/submit_bt.jpg') no-repeat right bottom;}
 
 
 .box{line-height: 30px; font-size: 22px;background:#FFFFFF;color:#660000;width:186px;border:2px solid DarkGray;}
