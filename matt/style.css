@@ -17,6 +17,12 @@ body {
   voice-family: "\"}\""; 
   voice-family: inherit;
   font-size: medium;
+  
+}
+
+#mics{
+margin-left: 5em;
+list-style: disc;
 }
 
 #Content{
