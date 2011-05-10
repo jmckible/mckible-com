@@ -8,16 +8,23 @@ body{
   font-family: helvetica, verdana, sans-serif;
   font-size: medium;
   color: #333;
-  background-color: #F5F5DC;
+  background-color: #ECE5B6;
   
 }
 /* adjustment for IE5 */
 body {
-	font-size: small; /* IE5 Win */
+  font-size: small; /* IE5 Win */
   voice-family: "\"}\""; 
   voice-family: inherit;
   font-size: medium;
   
+}
+#logo{
+margin:0 auto;
+width: 147;
+height: 147;
+border:1px solid #000;
+float:left;
 }
 
 #mics{
