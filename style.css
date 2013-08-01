@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  color: #333;
+  font-family: "helvetica neue", arial, helvetica, san-serif;
+  background: #ccc;
+}
+
+h1{
+  font-variant: small-caps;
+}
+
+h2{
+  font-variant: small-caps;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a{
+  color: #000;
+}
+
+#Content{
+  margin: 40px auto 40px auto;
+  width: 600px;
+  background: #fff;
+  padding: 1em 0 2em 2em;
+  border: 10px solid #999;
+}
+
+#Main{ 
+  padding-left: 10px;
+  width: 550px;
+}
